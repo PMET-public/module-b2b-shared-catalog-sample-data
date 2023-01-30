@@ -28,6 +28,7 @@
             <module name="MagentoEse_B2BMiscSampleData"/>
             <module name="Magento_Swatches"/>
             <module name="Magento_SwatchesLayeredNavigation"/>
+            <module name="MagentoEse_DataInstall"/>
         </sequence>
     </module>
 </config>
