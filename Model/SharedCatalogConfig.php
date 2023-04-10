@@ -6,6 +6,9 @@
 
 namespace MagentoEse\B2BSharedCatalogSampleData\Model;
 
+use Magento\Catalog\Api\CategoryRepositoryInterface;
+use Magento\SharedCatalog\Api\CategoryManagementInterface;
+
 class SharedCatalogConfig {
 
     /**
@@ -118,6 +121,18 @@ class SharedCatalogConfig {
 
     /** @var \Magento\SharedCatalog\Model\SharedCatalogAssignment  */
     protected $sharedCatalogAssignment;
+
+    /**
+     * 
+     * @var CategoryManagementInterface
+     */
+    protected $categoryManagement;
+
+    /**
+     * 
+     * @var CategoryRepositoryInterface
+     */
+    protected $categoryFactory;
 
     /**
      * SharedCatalogConfig constructor.

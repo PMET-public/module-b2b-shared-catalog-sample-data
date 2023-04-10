@@ -21,6 +21,17 @@ use Magento\Framework\Setup\SampleData\Context as SampleDataContext;
       */
      protected $sampleDataContext;
 
+     /**
+      * 
+      * @var FixtureManager
+      */
+      protected $fixtureManager;
+     
+      /**
+       * 
+       * @var Csv
+       */
+      protected $csvReader;
 
      /**
       * Related constructor.

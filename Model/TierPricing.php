@@ -29,6 +29,11 @@ class TierPricing
      */
     protected $objectManager;
 
+    /**
+     * 
+     * @var MagentoEse\DataInstall\Model\Import\Importer\Importer
+     */
+    protected $importerModel;
 
     /**
      * Product constructor.
